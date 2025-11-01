@@ -66,6 +66,7 @@ python exam_composer.py
 - 生成嵌入数据库；
 - 调用 LLM 生成题目与解析；
 - 输出到 `./data/output/exam_result.jsonl`
+- 这部分目前仅仅写死了单个PDF文件的处理，可以根据需要自行修改，使其读取指定路径下全部的PDF文件或者word文件，也可以手动将资料合并成一个PDF
 
 ### 2️⃣ 交互式刷题
 ```bash
