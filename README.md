@@ -1,4 +1,4 @@
-# 📘 StudyRAG — 基于 RAG 的教材自动出题与交互答题系统
+# 📘 RAG-ExamBuilder — 基于 RAG 的教材自动出题与交互答题系统
 
 一个轻量级的 **Retrieval-Augmented Generation (RAG)** 项目，  
 可从 PDF/Word 教材自动生成高质量的选择题，并支持交互式答题、错题记录与解析。
