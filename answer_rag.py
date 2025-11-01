@@ -3,7 +3,7 @@ import numpy as np
 from openai import OpenAI
 import json
 
-client = OpenAI(api_key="sk-ojnvarqgomblykgvmzljuegstpulbyvnpjvnshusbnjaddzl", base_url="https://api.siliconflow.cn/v1")
+client = OpenAI(api_key="sk-ojnvaxxxnjaddzl", base_url="https://api.siliconflow.cn/v1")
 
 def cosine(a, b):
     return np.dot(a, b) / (np.linalg.norm(a)*np.linalg.norm(b))

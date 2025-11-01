@@ -1,6 +1,6 @@
 # question_gen.py
 from openai import OpenAI
-client = OpenAI(api_key="sk-ojnvarqgomblykgvmzljuegstpulbyvnpjvnshusbnjaddzl", base_url="https://api.siliconflow.cn/v1")
+client = OpenAI(api_key="sk-ojnvaxxxxxxddzl", base_url="https://api.siliconflow.cn/v1")
 
 PROMPT = """你是一位考试命题专家。
 请根据以下资料内容，编写1道单项选择题。

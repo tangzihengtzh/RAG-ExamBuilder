@@ -1,5 +1,5 @@
 
-# SILICONFLOW_API_KEY = "sk-ojnvarqgomblykgvmzljuegstpulbyvnpjvnshusbnjaddzl"
+# SILICONFLOW_API_KEY = "sk-ojnxxxxaddzl"
 # BASE_URL  = "https://api.siliconflow.cn/v1"
 # model="BAAI/bge-large-zh-v1.5",  # 模型名称固定
 
@@ -8,7 +8,7 @@ from openai import OpenAI
 from tqdm import tqdm
 import json, os
 
-client = OpenAI(api_key="sk-ojnvarqgomblykgvmzljuegstpulbyvnpjvnshusbnjaddzl", base_url="https://api.siliconflow.cn/v1")
+client = OpenAI(api_key="sk-ojnvxxxjaddzl", base_url="https://api.siliconflow.cn/v1")
 
 def embed_chunks(chunks, output_file="db.jsonl"):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
